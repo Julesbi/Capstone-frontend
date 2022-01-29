@@ -1,0 +1,130 @@
+body{
+    margin:0;
+    background-image: url("../assets/greek-vase.png");
+    background-size:300px;
+    font-family: 'Source Sans Pro', sans-serif;
+    min-height: 100vh;
+    background:#87cefa;
+}
+
+.head{
+    width:70vw;
+    margin: auto;
+    padding:20px 60px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    
+    
+}
+.nav a{
+    color:black;
+    text-decoration:none;
+    display:block;
+    transition: all 0.3s ease-out;
+}
+.nav a:hover{
+    color:#0078E7;
+    transform: rotate(6deg);
+}
+.nav{
+    list-style:none;
+    margin:0;
+    padding:0;
+    display:flex;
+}
+.nav li{
+    margin-left:20px;
+}
+.btn{
+    border:none;
+    border-radius: 100px;
+    padding: 10px 20px;
+    text-align: center;
+    margin-top: 5px;
+    box-shadow: 0px 2px 1px #d8d9da;
+    cursor:pointer;
+    text-decoration: none;
+}
+.signup {
+    background-color: white;
+    color:#0078E7;   
+}
+.signup a{
+text-decoration: none;
+}
+.main-inner{
+      
+    background-color:white;
+}
+.container{
+    display:grid;
+    grid-template-columns: 2fr .2fr 2fr;
+    grid-gap:2rem;
+    width:65vw;
+    margin:auto;
+}
+#line{
+    background-color: black;
+    width:1px;
+    height:150px;
+    margin-top: 12px;
+}
+
+.project p{
+    color:#000000;
+    font-weight:bold;
+    font-size:2rem;
+    line-height: 1.2;
+
+}
+.project p span{
+    font-weight: 400;
+    font-size: medium;
+}
+.quote{
+    font-size:20px;
+    font-weight: bold;
+    display:flex;
+    justify-content: flex-start;
+    align-items:flex-start;
+    margin-top:20px;
+}
+.photos{
+    background-color:white;
+}
+
+.img .pic{
+    width:270px;
+    height:200px;
+}
+.image{
+    display:flex;
+    flex-direction:column;
+    width:100%;
+}
+.upper{
+    display: flex;
+    width:70%;
+    padding:20px;
+    margin:auto;
+    justify-content: space-around;
+}
+.lower{
+    display: grid;
+    grid-template-columns: .8fr 1fr 1fr;
+    grid-gap: 20px;
+    width:67%;
+    margin:auto;
+}
+.lower .img .pic1{
+    width:351px;
+    height:200px;
+} 
+.lower .img .pic0{
+    height:200px;
+} 
+.lower .img .pic2{
+    width:350px;
+    height:200px;
+}

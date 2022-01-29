@@ -1,0 +1,112 @@
+body{
+    margin:0;
+    background-image: url("../greek-vase.png");
+    background-size:300px;
+    font-family: 'Source Sans Pro', sans-serif;
+    max-width: 100%;
+    height:100vh;
+    max-height: fit-content;
+    border-radius:10px;
+    border-color:red;
+}
+.innerbody{
+   display:flex;
+   height:100vh;
+   flex-direction:column;
+   justify-content:center;
+   align-items:center;
+}
+.principal{
+    display:flex;
+    justify-content:space-around;
+    margin-top:50px;
+    height:100vh;
+    width:70%;
+    align-items:center;
+}
+.enter{
+    display:flex;
+    justify-content:space-between;
+    font-size:medium;
+
+    background-color:white;
+    padding: 7px 80px 7px 80px;
+}
+.formation{
+    display:flex;
+    height:60%;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+
+    justify-content: space-between;
+
+}
+ .login{
+    display:flex;
+    flex-direction:column;
+    background-color:rgb(147, 179, 207);
+    height:70vh;
+    width:20vw;
+    border-radius: 30px;
+}
+.logintitle{
+    padding-left:60px;
+}
+.block{
+    display:block;
+    margin-bottom:20px;
+}
+.loginbutton{
+    margin-top:40px;
+    margin-left:10px;
+    padding-top:10px;
+    padding-bottom:10px; 
+    padding-left:30px;
+    padding-right:30px;
+    color:white;
+    background-color:#0078E7;
+    border-radius:30px;
+    border-color:rgb(147, 179, 207);
+}
+
+.signup{
+    display: flex;
+}
+/* .signup p{
+    padding-top:30px;
+}
+ */
+ .signupbutton{
+     padding-top: 15px;
+ }
+ .signup a{
+     color:green;
+     padding-bottom: 10px;
+ }
+.tag{
+    color:white;
+
+    text-decoration: none;
+}
+.incontact{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    height:auto;
+    width:98vw;
+    background-color:white;
+    
+}
+.input-box{
+    padding:10px;
+    border-radius:40px;
+    border-color: rgb(147, 179, 207);
+}
+span{
+    display:block;
+    margin-left:20px;
+    color:red;
+    font-size:italic;
+}
