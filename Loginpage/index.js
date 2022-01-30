@@ -8,7 +8,7 @@ login.addEventListener("click",(e)=>{
     // let userName = userName.value.trim();
     // let emailReg = emailReg.value.trim();
     // let passwordReg =passwordReg.value.trim();
-    console.log(userName.value)
+    /* console.log(userName.value) */
     fetch("https://limitless-meadow-43468.herokuapp.com/api/user/login",{
         method: "POST",
         headers:{
@@ -20,11 +20,13 @@ login.addEventListener("click",(e)=>{
             password:passwordReg.value,
         })
     }).then(res=>res.json()).then(data=>{
+        console.log(data)
         if(data.status === 400) {
             return console.log("")
         }else{
-            if(data.status === 200){
-               return location.href ="http://127.0.0.1:5500/BLOG/index.html"
+            if(data.message === "logged in successfully"){
+                alert("clickhere")
+               return window.location.href ="../BLOG/index.html"
             }
         }
     })
